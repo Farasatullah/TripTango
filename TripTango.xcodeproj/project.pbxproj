@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08BC5E96539BE1DD2DE186DE /* Pods_TripTango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CB62016EF4FBDD96E09825 /* Pods_TripTango.framework */; };
 		18C0C9E92B357A4A00B2FDE5 /* TripTangoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C9E82B357A4A00B2FDE5 /* TripTangoApp.swift */; };
 		18C0C9EB2B357A4A00B2FDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C0C9EA2B357A4A00B2FDE5 /* ContentView.swift */; };
 		18C0C9ED2B357A4C00B2FDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C9EC2B357A4C00B2FDE5 /* Assets.xcassets */; };
 		18C0C9F02B357A4C00B2FDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C9EF2B357A4C00B2FDE5 /* Preview Assets.xcassets */; };
+		18C0C9F72B357B7600B2FDE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C0C9F62B357B7600B2FDE5 /* GoogleService-Info.plist */; };
+		18C0CA132B357F2F00B2FDE5 /* Localizable (English).strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C0CA152B357F2F00B2FDE5 /* Localizable (English).strings */; };
+		18C0CA182B357F9300B2FDE5 /* Localizable (Arabic).strings in Resources */ = {isa = PBXBuildFile; fileRef = 18C0CA1A2B357F9300B2FDE5 /* Localizable (Arabic).strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,12 @@
 		18C0C9EA2B357A4A00B2FDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18C0C9EC2B357A4C00B2FDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C0C9EF2B357A4C00B2FDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18C0C9F62B357B7600B2FDE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18C0CA142B357F2F00B2FDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Localizable (English).strings"; sourceTree = "<group>"; };
+		18C0CA192B357F9300B2FDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Localizable (Arabic).strings"; sourceTree = "<group>"; };
+		6299A10BF8255AF320BE0DE0 /* Pods-TripTango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripTango.debug.xcconfig"; path = "Target Support Files/Pods-TripTango/Pods-TripTango.debug.xcconfig"; sourceTree = "<group>"; };
+		6769E66758D72F76D7F9A578 /* Pods-TripTango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripTango.release.xcconfig"; path = "Target Support Files/Pods-TripTango/Pods-TripTango.release.xcconfig"; sourceTree = "<group>"; };
+		F4CB62016EF4FBDD96E09825 /* Pods_TripTango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripTango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +36,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BC5E96539BE1DD2DE186DE /* Pods_TripTango.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06AD32EF63647B1BDF13FB7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB62016EF4FBDD96E09825 /* Pods_TripTango.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18C0C9DC2B357A4A00B2FDE5 = {
 			isa = PBXGroup;
 			children = (
 				18C0C9E72B357A4A00B2FDE5 /* TripTango */,
 				18C0C9E62B357A4A00B2FDE5 /* Products */,
+				66BDC95ECBBA88F5B77CD084 /* Pods */,
+				06AD32EF63647B1BDF13FB7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +72,10 @@
 		18C0C9E72B357A4A00B2FDE5 /* TripTango */ = {
 			isa = PBXGroup;
 			children = (
+				18C0CA102B357EE800B2FDE5 /* Localization */,
+				18C0C9FA2B357C3700B2FDE5 /* Code */,
+				18C0C9F82B357C2700B2FDE5 /* Resources */,
+				18C0C9F62B357B7600B2FDE5 /* GoogleService-Info.plist */,
 				18C0C9E82B357A4A00B2FDE5 /* TripTangoApp.swift */,
 				18C0C9EA2B357A4A00B2FDE5 /* ContentView.swift */,
 				18C0C9EC2B357A4C00B2FDE5 /* Assets.xcassets */,
@@ -67,6 +92,222 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		18C0C9F82B357C2700B2FDE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18C0C9F92B357C2E00B2FDE5 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18C0C9F92B357C2E00B2FDE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		18C0C9FA2B357C3700B2FDE5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA1B2B357FB900B2FDE5 /* Utilities */,
+				18C0C9FC2B357C4E00B2FDE5 /* Features */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		18C0C9FC2B357C4E00B2FDE5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA032B357CA500B2FDE5 /* Authentication */,
+				18C0C9FD2B357C6700B2FDE5 /* Common */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		18C0C9FD2B357C6700B2FDE5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA022B357C9900B2FDE5 /* Actions */,
+				18C0CA012B357C9300B2FDE5 /* Screens */,
+				18C0CA002B357C8600B2FDE5 /* ViewModels */,
+				18C0C9FF2B357C8100B2FDE5 /* View */,
+				18C0C9FE2B357C7000B2FDE5 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18C0C9FE2B357C7000B2FDE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18C0C9FF2B357C8100B2FDE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0CA002B357C8600B2FDE5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18C0CA012B357C9300B2FDE5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		18C0CA022B357C9900B2FDE5 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		18C0CA032B357CA500B2FDE5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA052B357CCB00B2FDE5 /* Signup */,
+				18C0CA042B357CC500B2FDE5 /* Login */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		18C0CA042B357CC500B2FDE5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA0A2B357CFC00B2FDE5 /* Models */,
+				18C0CA092B357CF700B2FDE5 /* View */,
+				18C0CA082B357CEF00B2FDE5 /* ViewModels */,
+				18C0CA072B357CE800B2FDE5 /* Screens */,
+				18C0CA062B357CE100B2FDE5 /* Actions */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		18C0CA052B357CCB00B2FDE5 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA0F2B357D2200B2FDE5 /* Screens */,
+				18C0CA0E2B357D1900B2FDE5 /* ViewModels */,
+				18C0CA0D2B357D1400B2FDE5 /* View */,
+				18C0CA0C2B357D0B00B2FDE5 /* Models */,
+				18C0CA0B2B357D0300B2FDE5 /* Actions */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		18C0CA062B357CE100B2FDE5 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		18C0CA072B357CE800B2FDE5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		18C0CA082B357CEF00B2FDE5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18C0CA092B357CF700B2FDE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0CA0A2B357CFC00B2FDE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18C0CA0B2B357D0300B2FDE5 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		18C0CA0C2B357D0B00B2FDE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18C0CA0D2B357D1400B2FDE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C0CA0E2B357D1900B2FDE5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18C0CA0F2B357D2200B2FDE5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		18C0CA102B357EE800B2FDE5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA152B357F2F00B2FDE5 /* Localizable (English).strings */,
+				18C0CA1A2B357F9300B2FDE5 /* Localizable (Arabic).strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		18C0CA1B2B357FB900B2FDE5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18C0CA1C2B357FC100B2FDE5 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18C0CA1C2B357FC100B2FDE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		66BDC95ECBBA88F5B77CD084 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6299A10BF8255AF320BE0DE0 /* Pods-TripTango.debug.xcconfig */,
+				6769E66758D72F76D7F9A578 /* Pods-TripTango.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C0C9F32B357A4C00B2FDE5 /* Build configuration list for PBXNativeTarget "TripTango" */;
 			buildPhases = (
+				A6B03F433A3A27746890A7B6 /* [CP] Check Pods Manifest.lock */,
 				18C0C9E12B357A4A00B2FDE5 /* Sources */,
 				18C0C9E22B357A4A00B2FDE5 /* Frameworks */,
 				18C0C9E32B357A4A00B2FDE5 /* Resources */,
+				971CCB369ADB941C913BC8A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +368,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C0CA182B357F9300B2FDE5 /* Localizable (Arabic).strings in Resources */,
 				18C0C9F02B357A4C00B2FDE5 /* Preview Assets.xcassets in Resources */,
+				18C0CA132B357F2F00B2FDE5 /* Localizable (English).strings in Resources */,
 				18C0C9ED2B357A4C00B2FDE5 /* Assets.xcassets in Resources */,
+				18C0C9F72B357B7600B2FDE5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		971CCB369ADB941C913BC8A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripTango/Pods-TripTango-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TripTango/Pods-TripTango-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TripTango/Pods-TripTango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B03F433A3A27746890A7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripTango-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18C0C9E12B357A4A00B2FDE5 /* Sources */ = {
@@ -143,6 +431,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C0CA152B357F2F00B2FDE5 /* Localizable (English).strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C0CA142B357F2F00B2FDE5 /* en */,
+			);
+			name = "Localizable (English).strings";
+			sourceTree = "<group>";
+		};
+		18C0CA1A2B357F9300B2FDE5 /* Localizable (Arabic).strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C0CA192B357F9300B2FDE5 /* en */,
+			);
+			name = "Localizable (Arabic).strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18C0C9F12B357A4C00B2FDE5 /* Debug */ = {
@@ -261,6 +568,7 @@
 		};
 		18C0C9F42B357A4C00B2FDE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6299A10BF8255AF320BE0DE0 /* Pods-TripTango.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +598,7 @@
 		};
 		18C0C9F52B357A4C00B2FDE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6769E66758D72F76D7F9A578 /* Pods-TripTango.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
